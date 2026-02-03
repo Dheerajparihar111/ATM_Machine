@@ -9,18 +9,22 @@ class Type {
 
 class authintications{
     void authintications(){
-        System.out.println("Enter the Four Digit Pin");
+        System.out.println("Enter the 4-Digit Pin:****");
         System.out.println("You Get only Three 3 Chances");
     }
 }
 
 class Options {
     void options() {
-        System.out.println("Enter your choice");
-        System.out.println("1) Add Money");
-        System.out.println("2) Withdraw Money");
-        System.out.println("3) View Balance");
-        System.out.println("4) EXIT");
+        System.out.println("==========================");
+        System.out.println("|      ATM MENU          |");
+        System.out.println("==========================");
+        System.out.println("| Enter your choice      |");
+        System.out.println("| 1) Add Money           | ");
+        System.out.println("| 2) Withdraw Money      |");
+        System.out.println("| 3) View Balance        |");
+        System.out.println("| 4) EXIT                |");
+        System.out.println("==========================");
     }
 }
 
@@ -40,7 +44,7 @@ public class Main {
                 if (pin != 1234) {
                     System.out.println("WRONG pin");
                 }else {
-                    System.out.println("Wel-Come Sir");
+                    System.out.println("Pin Verified Successfully");
                     break;
                 }
                 System.out.println("Card is Blocked");
