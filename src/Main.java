@@ -1,5 +1,5 @@
 import java.util.*;
-
+import java.time.*;
 class Type {
     int creditAmount;
     Type(int creditAmount) {
@@ -23,6 +23,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         Options options = new Options();
         ArrayList<Type> list = new ArrayList<>();
+        Date current = new Date() ;
         while (true) {
             options.options();
             int choice = input.nextInt();
@@ -32,6 +33,7 @@ public class Main {
                     int creditAmount = input.nextInt();
                     list.add(new Type(creditAmount));
                     System.out.println("Money Added Successfully");
+                    System.out.println(current);
                     break;
                     case 2:
                     System.out.println("Enter the Amount to Withdraw: ");
@@ -45,6 +47,7 @@ public class Main {
                         list.clear();
                         list.add(new Type(total));
                         System.out.println("Amount Withdrawn Successfully");
+                        System.out.println(current);
                     } else {
                         System.out.println("Out of Balance");
                     }
