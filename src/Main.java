@@ -9,7 +9,7 @@ class Type {
 
 class Options {
     void options() {
-        System.out.println("\nEnter your choice");
+        System.out.println("Enter your choice");
         System.out.println("1) Add Money");
         System.out.println("2) Withdraw Money");
         System.out.println("3) View Balance");
