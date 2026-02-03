@@ -7,6 +7,13 @@ class Type {
     }
 }
 
+class authintications{
+    void authintications(){
+        System.out.println("Enter the Four Digit Pin");
+        System.out.println("You Get only Three 3 Chances");
+    }
+}
+
 class Options {
     void options() {
         System.out.println("Enter your choice");
@@ -24,6 +31,22 @@ public class Main {
         Options options = new Options();
         ArrayList<Type> list = new ArrayList<>();
         Date current = new Date() ;
+        authintications Auth = new authintications();
+        Auth.authintications();
+        if (true) {
+            for (int i = 0; i < 3; i++) {
+                System.out.print("Enter the Pin = ");
+                int pin = input.nextInt();
+                if (pin != 1234) {
+                    System.out.println("WRONG pin");
+                }else {
+                    System.out.println("Wel-Come Sir");
+                    break;
+                }
+                System.out.println("Card is Blocked");
+                System.exit(0);
+            }
+        }
         while (true) {
             options.options();
             int choice = input.nextInt();
