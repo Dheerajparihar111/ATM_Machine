@@ -49,6 +49,7 @@ Clone the repository
 
 git clone https://github.com/Dheerajparihar111/ATM-Machine.git
 
+<img width="1898" height="1008" alt="ATM_Machine output1" src="https://github.com/user-attachments/assets/6cce4fec-6696-49c8-afd1-d807f0ad4c3e" />
 
 Open the project in IntelliJ IDEA (or any Java IDE)
 
