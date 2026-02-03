@@ -42,7 +42,8 @@ ATM-Machine/
 ▶️ How to Run
 🔹 Step 1: Clone Repository
 git clone https://github.com/Dheerajparihar111/ATM-Machine.git
-<img width="1898" height="1008" alt="ATM_Machine output1" src="https://github.com/user-attachments/assets/477eb96a-612c-4ec4-acfe-dd309ccbc810" />
+<img width="1905" height="1016" alt="ATM_Machine output2" src="https://github.com/user-attachments/assets/6311fc71-be52-4d4a-b123-a77ce1a2a090" />
+
 
 🔹 Step 2: Open in IDE
 
